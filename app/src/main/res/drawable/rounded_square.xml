@@ -1,0 +1,8 @@
+<!-- res/drawable/rounded_square.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#8C8C8C" /> <!-- Set the background color of the square -->
+    <corners android:radius="14dp" /> <!-- Set the radius for rounded corners -->
+    <size
+        android:width="334dp"
+        android:height="376dp" />
+</shape>

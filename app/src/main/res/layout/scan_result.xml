@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+    <ImageView
+        android:id="@+id/scanresultimage"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_square" />
+
+
+    <TextView
+        android:id="@+id/platnomortext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/barlow_regular"
+        android:text="Plat Nomor"
+        android:textColor="#282931"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/platnomorresulttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="230dp"
+        android:fontFamily="@font/barlow_bold"
+        android:text="Text"
+        android:textColor="#282931"
+        android:textSize="36dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/daerahtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/barlow_regular"
+        android:text="Daerah"
+        android:textColor="#282931"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/daerahresulttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/barlow_bold"
+        android:text="Text"
+        android:textColor="#282931"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <ImageButton
+        android:id="@+id/kembalibutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="625dp"
+        android:background="#00FFFFFF"
+        android:src="@drawable/kembali_button" />
+
+</RelativeLayout>
